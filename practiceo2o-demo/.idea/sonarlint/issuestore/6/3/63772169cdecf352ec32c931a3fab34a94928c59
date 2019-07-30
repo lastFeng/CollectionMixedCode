@@ -1,0 +1,5 @@
+
+Msquid:S1068 "*Remove this unused "errMsg" private field.(»¹³¾şÿÿÿÿ8¾ÄÒ©-
+Hsquid:S1068"+Remove this unused "success" private field.(ÉšÒ	8µÁÒ©-
+Nsquid:S1068!"+Remove this unused "errCode" private field.(¹ßü¹ÿÿÿÿÿ8´åÄÒ©-
+Fsquid:S1068"(Remove this unused "data" private field.(íİµ˜8ÕÇ¿Ò©-

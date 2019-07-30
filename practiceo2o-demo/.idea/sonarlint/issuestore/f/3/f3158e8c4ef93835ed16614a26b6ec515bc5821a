@@ -1,0 +1,8 @@
+
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(ôƒììúÿÿÿÿ8é¤Ü©-
+Ksquid:S1481"/Remove this unused "productStr" local variable.(¿’—Ğ8é¤Ü©-
+Lsquid:S1481"+Remove this unused "mapper" local variable.(ĞÏáúÿÿÿÿ8é¤Ü©-
+Zsquid:S1854">Remove this useless assignment to local variable "productStr".(¿’—Ğ8é¤Ü©-
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬§êÈøÿÿÿÿ8é¤Ü©-
+Ysquid:S2589"8Remove this expression which always evaluates to "false"(ôƒììúÿÿÿÿ8é¤Ü©-
+[squid:S1854":Remove this useless assignment to local variable "mapper".(ĞÏáúÿÿÿÿ8é¤Ü©-

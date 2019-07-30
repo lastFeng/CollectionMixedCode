@@ -1,0 +1,142 @@
+2019-05-29 13:36:58.688  INFO 8692 --- [main] EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: application-1
+2019-05-29 13:36:58.689  INFO 8692 --- [main] c.s.c.CityCollectionServerApplication    : No active profile set, falling back to default profiles: default
+2019-05-29 13:36:59.477  INFO 8692 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=76507cf1-7bfe-39ec-8f69-f874c588f51f
+2019-05-29 13:36:59.558  INFO 8692 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2019-05-29 13:36:59.575  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-05-29 13:36:59.576  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-05-29 13:36:59.577  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-05-29 13:36:59.577  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-05-29 13:36:59.578  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:36:59.578  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:36:59.579  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-05-29 13:36:59.579  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:36:59.579  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:36:59.580  INFO 8692 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:36:59.593  INFO 8692 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-05-29 13:36:59.671  INFO 8692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a85cab0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-29 13:36:59.691  INFO 8692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$469fcdad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-29 13:36:59.748  INFO 8692 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-05-29 13:36:59.752  INFO 8692 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-05-29 13:37:00.419  INFO 8692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7001 (http)
+2019-05-29 13:37:00.480  INFO 8692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-29 13:37:00.481  INFO 8692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-29 13:37:00.785  INFO 8692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-29 13:37:00.786  INFO 8692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2078 ms
+2019-05-29 13:37:00.996  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2019-05-29 13:37:01.009  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2019-05-29 13:37:01.010  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2019-05-29 13:37:01.011  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2019-05-29 13:37:01.011  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2019-05-29 13:37:01.012  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2019-05-29 13:37:01.012  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2019-05-29 13:37:01.013  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.ivGeneratorClassname, using default value: org.jasypt.salt.NoOpIVGenerator
+2019-05-29 13:37:01.014  INFO 8692 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2019-05-29 13:37:02.302  WARN 8692 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-29 13:37:02.303  INFO 8692 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-29 13:37:02.314  WARN 8692 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-29 13:37:02.314  INFO 8692 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-29 13:37:02.438  INFO 8692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-29 13:37:04.061  INFO 8692 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-05-29 13:37:04.109  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-05-29 13:37:04.183  INFO 8692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-05-29 13:37:04.184  INFO 8692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-05-29 13:37:04.447  INFO 8692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-05-29 13:37:04.448  INFO 8692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-05-29 13:37:04.672  INFO 8692 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-29 13:37:04.967  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-05-29 13:37:04.967  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-05-29 13:37:04.967  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-05-29 13:37:04.967  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-05-29 13:37:04.967  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-05-29 13:37:04.968  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-05-29 13:37:04.968  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-05-29 13:37:05.201  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-05-29 13:37:05.204  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-05-29 13:37:05.208  INFO 8692 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-29 13:37:05.213  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1559108225211 with initial instances count: 0
+2019-05-29 13:37:05.218  INFO 8692 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CITY-COLLECTION-SERVER with eureka with status UP
+2019-05-29 13:37:05.219  INFO 8692 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559108225219, current=UP, previous=STARTING]
+2019-05-29 13:37:05.225  INFO 8692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CITY-COLLECTION-SERVER/DESKTOP-1BJ306V:city-collection-server:7001: registering service...
+2019-05-29 13:37:05.304  INFO 8692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7001 (http) with context path ''
+2019-05-29 13:37:05.307  INFO 8692 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7001
+2019-05-29 13:37:05.310  INFO 8692 --- [main] c.s.c.CityCollectionServerApplication    : Started CityCollectionServerApplication in 9.538 seconds (JVM running for 11.304)
+2019-05-29 13:37:05.338  INFO 8692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CITY-COLLECTION-SERVER/DESKTOP-1BJ306V:city-collection-server:7001 - registration status: 204
+2019-05-29 13:37:33.238  INFO 6728 --- [main] EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: application-1
+2019-05-29 13:37:33.239  INFO 6728 --- [main] c.s.c.CityCollectionServerApplication    : No active profile set, falling back to default profiles: default
+2019-05-29 13:37:34.083  INFO 6728 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=76507cf1-7bfe-39ec-8f69-f874c588f51f
+2019-05-29 13:37:34.095  INFO 6728 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2019-05-29 13:37:34.113  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-05-29 13:37:34.114  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-05-29 13:37:34.115  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-05-29 13:37:34.115  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-05-29 13:37:34.116  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:37:34.116  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:37:34.117  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-05-29 13:37:34.117  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:37:34.118  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:37:34.118  INFO 6728 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-29 13:37:34.130  INFO 6728 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-05-29 13:37:34.217  INFO 6728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2768ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-29 13:37:34.235  INFO 6728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be908dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-29 13:37:34.295  INFO 6728 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-05-29 13:37:34.299  INFO 6728 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-05-29 13:37:34.914  INFO 6728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7002 (http)
+2019-05-29 13:37:34.958  INFO 6728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-29 13:37:34.959  INFO 6728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-29 13:37:35.175  INFO 6728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-29 13:37:35.176  INFO 6728 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1918 ms
+2019-05-29 13:37:35.206  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-05-29 13:37:35.208  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-05-29 13:37:35.210  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-05-29 13:37:35.223  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-05-29 13:37:35.223  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-05-29 13:37:35.224  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-05-29 13:37:35.224  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-05-29 13:37:35.280  INFO 8692 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-05-29 13:37:35.439  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2019-05-29 13:37:35.454  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2019-05-29 13:37:35.455  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2019-05-29 13:37:35.458  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2019-05-29 13:37:35.458  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2019-05-29 13:37:35.459  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2019-05-29 13:37:35.460  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2019-05-29 13:37:35.461  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.ivGeneratorClassname, using default value: org.jasypt.salt.NoOpIVGenerator
+2019-05-29 13:37:35.466  INFO 6728 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2019-05-29 13:37:36.479  WARN 6728 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-29 13:37:36.480  INFO 6728 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-29 13:37:36.487  WARN 6728 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-29 13:37:36.487  INFO 6728 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-29 13:37:36.609  INFO 6728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-29 13:37:38.147  INFO 6728 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-05-29 13:37:38.193  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-05-29 13:37:38.255  INFO 6728 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-05-29 13:37:38.255  INFO 6728 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-05-29 13:37:38.426  INFO 6728 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-05-29 13:37:38.427  INFO 6728 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-05-29 13:37:38.638  INFO 6728 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-29 13:37:38.932  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-05-29 13:37:38.932  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-05-29 13:37:38.933  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-05-29 13:37:38.933  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-05-29 13:37:38.934  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-05-29 13:37:38.934  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-05-29 13:37:38.934  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-05-29 13:37:39.093  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-05-29 13:37:39.096  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-05-29 13:37:39.099  INFO 6728 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-29 13:37:39.102  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1559108259101 with initial instances count: 1
+2019-05-29 13:37:39.105  INFO 6728 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CITY-COLLECTION-SERVER with eureka with status UP
+2019-05-29 13:37:39.106  INFO 6728 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559108259106, current=UP, previous=STARTING]
+2019-05-29 13:37:39.108  INFO 6728 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CITY-COLLECTION-SERVER/DESKTOP-1BJ306V:city-collection-server:7002: registering service...
+2019-05-29 13:37:39.156  INFO 6728 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CITY-COLLECTION-SERVER/DESKTOP-1BJ306V:city-collection-server:7002 - registration status: 204
+2019-05-29 13:37:39.158  INFO 6728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7002 (http) with context path ''
+2019-05-29 13:37:39.159  INFO 6728 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7002
+2019-05-29 13:37:39.162  INFO 6728 --- [main] c.s.c.CityCollectionServerApplication    : Started CityCollectionServerApplication in 8.126 seconds (JVM running for 8.644)
+2019-05-29 13:38:19.633  INFO 8692 --- [http-nio-7001-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-29 13:38:19.634  INFO 8692 --- [http-nio-7001-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-29 13:38:19.645  INFO 8692 --- [http-nio-7001-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-05-29 13:38:38.424  INFO 6728 --- [http-nio-7002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-29 13:38:38.424  INFO 6728 --- [http-nio-7002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-29 13:38:38.433  INFO 6728 --- [http-nio-7002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-05-29 13:42:04.973  INFO 8692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-29 13:42:38.939  INFO 6728 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

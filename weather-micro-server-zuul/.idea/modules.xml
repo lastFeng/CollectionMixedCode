@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/city-collection-server/city-collection-server.iml" filepath="$PROJECT_DIR$/city-collection-server/city-collection-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-collection-server/weather-collection-server.iml" filepath="$PROJECT_DIR$/weather-collection-server/weather-collection-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-eureka-server/weather-eureka-server.iml" filepath="$PROJECT_DIR$/weather-eureka-server/weather-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-micro-server-feign.iml" filepath="$PROJECT_DIR$/weather-micro-server-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-report-server/weather-report-server.iml" filepath="$PROJECT_DIR$/weather-report-server/weather-report-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-ui-server/weather-ui-server.iml" filepath="$PROJECT_DIR$/weather-ui-server/weather-ui-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-zuul-server/weather-zuul-server.iml" filepath="$PROJECT_DIR$/weather-zuul-server/weather-zuul-server.iml" />
+    </modules>
+  </component>
+</project>

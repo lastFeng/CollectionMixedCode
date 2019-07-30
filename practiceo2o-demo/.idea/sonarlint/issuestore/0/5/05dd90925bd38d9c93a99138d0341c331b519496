@@ -1,0 +1,8 @@
+
+ˆ"squid:ClassVariableVisibilityCheck"PMake hash a static final constant or non-public and provide accessors if needed.(Í¬ßÿüÿÿÿÿ8ñ“ãž«-
+ƒ"squid:ClassVariableVisibilityCheck"PMake keys a static final constant or non-public and provide accessors if needed.(¨ôÓ–8ñ“ãž«-
+dsquid:HiddenFieldCheck"8Rename "keys" which hides the field declared at line 45.(’½ªâûÿÿÿÿ8ñ“ãž«-
+ˆ"squid:ClassVariableVisibilityCheck"PMake sets a static final constant or non-public and provide accessors if needed.(Ç©ûƒÿÿÿÿÿ8ñ“ãž«-
+„"squid:ClassVariableVisibilityCheck"QMake lists a static final constant or non-public and provide accessors if needed.(ùšÌó8ñ“ãž«-
+‹"squid:ClassVariableVisibilityCheck"SMake strings a static final constant or non-public and provide accessors if needed.(²£˜ßüÿÿÿÿ8ñ“ãž«-
+Bsquid:S1170"!Make this final field static too.(Ž–ÚŽýÿÿÿÿ8ñ“ãž«-

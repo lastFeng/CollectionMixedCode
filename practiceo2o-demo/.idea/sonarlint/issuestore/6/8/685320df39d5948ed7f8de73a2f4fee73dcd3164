@@ -1,0 +1,4 @@
+
+Ysquid:S2589"8Remove this expression which always evaluates to "false"(๊อัýÿÿÿÿ8‘๚ญฺฉ-
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(๊อัýÿÿÿÿ8‘๚ญฺฉ-
+ฝ%squid:RedundantThrowsDeclarationCheck"Remove the declaration of thrown exception 'com.springboot.o2o.exception.ProductOperationException' which is a runtime exception.(๙“ฃ฿ýÿÿÿÿ8๒๘Ýฉ-

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.citycollectionserver.mapper.CityMapper">
+
+    <sql id="cityBase">
+        city_id, city_name, city_code, province
+    </sql>
+    <select id="getAllCity" resultType="com.springboot.citycollectionserver.domain.City">
+        SELECT
+        <include refid="cityBase"/>
+        FROM
+        tb_city
+        ORDER BY
+        city_id DESC
+    </select>
+
+    <insert id="batchInsertCities" parameterType="com.springboot.citycollectionserver.domain.City">
+        insert into
+        tb_city
+        (city_id, city_name, city_code, province)
+        values
+        <foreach collection="list" item="city" separator=",">
+            (#{city.cityId}, #{city.cityName}, #{city.cityCode}, #{city.province})
+        </foreach>
+    </insert>
+
+</mapper>

@@ -1,0 +1,6 @@
+
+º%squid:RedundantThrowsDeclarationCheck-"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Ô‰‚õùÿÿÿÿ8§ÿÛå°-
+V
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ãÜ‘”8‚ýÞå°-
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(”îåÝüÿÿÿÿ8è²Ýå°-

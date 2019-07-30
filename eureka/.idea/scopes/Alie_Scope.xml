@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Alie_Scope" pattern="src[*]:org.apache..*||test[*]:org.apache..*" />
+</component>

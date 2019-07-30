@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<script th:src="@{/static/js/weather/report.js}" src="/static/js/weather/report.js"></script>-->
+    <title th:text="${reportModel.title}"></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="chart-alternative-row-fill">
+            <h3 th:text="${reportModel.title}"></h3>
+            <select id="selectByName" class="custom-select" onchange="selected()">
+                <option th:value="${city.cityName}" th:each="city: ${reportModel.cityList}" th:text="${city.cityName}"
+                        th:selected="${city.cityName eq reportModel.cityName}">
+                </option>
+            </select>
+        </div>
+
+        <div th:if="${reportModel.report ne null}">
+            <div class="row">
+                <h1 class="text-success" th:text="${reportModel.report.data.city}">城市名称</h1>
+            </div>
+            <div class="row">
+                <p>
+                    当前温度：<span th:text="${reportModel.report.data.wendu}" />
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    感冒易发程度：<span th:text="${reportModel.report.data.ganmao}" />
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="card" th:each="forecast: ${reportModel.report.data.forecast}">
+                    <div class="card-body border-info">
+                        <p class="card-text text-info" th:text="${forecast.date}">日期</p>
+                        <p class="card-text" th:text="${forecast.type}">天气类型</p>
+                        <p class="card-text" th:text="${forecast.low}">最低气温</p>
+                        <p class="card-text" th:text="${forecast.high}">最高气温</p>
+                        <p class="card-text" th:text="${forecast.fengli}">风力</p>
+                        <p class="card-text" th:text="${forecast.fengxiang}">风向</p><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div th:if="${reportModel.report eq null}">
+            <div class="row">
+                <h1 class="text-warning">查不到天气信息</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        function selected() {
+            // 获取被选中的option标签
+            var element = document.getElementById("selectByName");
+            var cityName = element.options[element.selectedIndex].value;
+            var url = '/city/' + cityName;
+            window.location.href=url;
+        }
+    </script>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

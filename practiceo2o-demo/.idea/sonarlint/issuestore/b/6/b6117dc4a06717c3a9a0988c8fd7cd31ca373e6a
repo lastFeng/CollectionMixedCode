@@ -1,0 +1,6 @@
+
+Ssquid:S3984R"5Throw this exception or remove this useless statement(äîŸ8Èæ£Õ©-
+Â%squid:RedundantThrowsDeclarationCheck5"‰Remove the declaration of thrown exception 'com.springboot.o2o.exception.ProductCategoryOperationException' which is a runtime exception.(ç•ä8¡è‡Õ©-
+Â%squid:RedundantThrowsDeclarationCheckH"‰Remove the declaration of thrown exception 'com.springboot.o2o.exception.ProductCategoryOperationException' which is a runtime exception.(ç•ä8ÛáÕ©-
+Psquid:S1135O"2Complete the task associated to this TODO comment.(æ¨¬Ó8ÀğÕ©-
+asquid:S11557">Use isEmpty() to check whether the collection is empty or not.(£ºòÛüÿÿÿÿ8ÿ´ÂÔ©-

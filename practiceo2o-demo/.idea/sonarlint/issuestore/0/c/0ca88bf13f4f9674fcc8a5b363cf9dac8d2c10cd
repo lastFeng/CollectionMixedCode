@@ -1,0 +1,8 @@
+
+lsquid:S1192V"IDefine a constant instead of duplicating this literal "redirect" 3 times.( Ó£ªøÿÿÿÿ8ÌÉÀÒ©-
+lsquid:S1192"HDefine a constant instead of duplicating this literal "success" 5 times.(æ×øÿÿÿÿ8ÌÉÀÒ©-
+Rsquid:EmptyStatementUsageCheck1"Remove this empty statement.(Åñ­õşÿÿÿÿ8•àÖÛ©-
+Vsquid:S1135ß"2Complete the task associated to this TODO comment.(Ÿğ³Ÿúÿÿÿÿ8ÌÉÀÒ©-
+Osquid:S1905"0Remove this unnecessary cast to "MultipartFile".(‘ô‡–8•àÖÛ©-
+Osquid:S1905Ù"0Remove this unnecessary cast to "MultipartFile".(¡İõ…8•àÖÛ©-
+jsquid:S1192P"GDefine a constant instead of duplicating this literal "shopId" 3 times.(Ÿ‡¯Êüÿÿÿÿ8ÌÉÀÒ©-

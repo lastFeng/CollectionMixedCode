@@ -1,0 +1,19 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(†™ñ‹8â¨«¾·-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã÷Èşÿÿÿÿ8›Í¼·-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(´øºÌşÿÿÿÿ8œÉ¡¼·-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ8‘„»½·-
+Xsquid:S2589"7Remove this expression which always evaluates to "true"(İÑ³Ñÿÿÿÿÿ8ÎÇ»½·-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´ùíö8®ü¡¼·-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(œÉ¬ª8ùÁ•¾·-
+q squid:LabelsShouldNotBeUsedCheck";Refactor the code to remove this label and the need for it.(”¬® øÿÿÿÿ8Ó¼º½·-
+Rsquid:S1751"6Remove this "return" statement or make it conditional.(ûÁİ…8Õë»½·-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹“ı¶ıÿÿÿÿ8®ü¡¼·-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ëôßÊ8Üçÿ´-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÉšÜÆ8®ü¡¼·-

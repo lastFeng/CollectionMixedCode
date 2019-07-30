@@ -1,0 +1,14 @@
+
+rsquid:S3008"VRename this field "CHARSETNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğìÚ÷8ì£™öª-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(öãúÿÿÿÿ8ƒ½öª-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”Ÿöª-
+psquid:S3008"TRename this field "ALGORITHM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°˜çÆ8Ìõêõª-
+ssquid:S3008"RRename this field "KEY_STR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÁ¼ÿşÿÿÿÿ8Ìõêõª-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(­Òª8ƒ½öª-
+Ssquid:S1135"2Complete the task associated to this TODO comment.(Ì›Áûÿÿÿÿ8Á¥«öª-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8×Ñøõª-
+Ssquid:S1135"2Complete the task associated to this TODO comment.(Ì›Áûÿÿÿÿ8‚Ãªöª-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ì£™öª-
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(Ó¨Ôÿÿÿÿÿ8«…¤öª-
