@@ -53,6 +53,14 @@ Spring Cloud Consul项目是针对Consul的服务治理实现。Consul是一个�
    - Key/Value存储
    - 多数据中心
 
+##### 服务消费
+###### LoadBalancerClient
+通过该接口来进行服务的消费--对应模块为eureka-comsumer
+
+###### Spring Cloud Ribbon
+Spring Cloud Ribbon是基于Netflix Ribbon实现的一套客户端负载均衡的工具。它是一个基于HTTP和TCP的客户端负载均衡器。它可以通过在客户端中配置ribbonServerList来设置服务端列表去轮询访问以达到均衡负载的作用。
+
+
 
 
 

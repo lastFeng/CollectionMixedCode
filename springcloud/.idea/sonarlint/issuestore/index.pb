@@ -15,3 +15,9 @@ G
 Ueureka-comsumer/src/main/java/com/learn/eurekacomsumer/EurekaComsumerApplication.java,4\6\4646e63001e1cf5ee81e8de4af3ffbb70e2ce021
 É
 Seureka-comsumer/src/main/java/com/learn/eurekacomsumer/controller/DcController.java,a\b\aba562da41787d7c1fed8afa7ea931c5f6a35eaf
+N
+eureka-comsumer-ribbon/pom.xml,6\2\62b8259cf8cfa00844604d39d0396387019d268f
+ê
+`eureka-comsumer-ribbon/src/main/java/com/learn/eurekacomsumerribbon/controller/DcController.java,c\1\c1b58957fca191d5b5a10657f0113b301138badb
+ò
+heureka-comsumer-ribbon/src/main/java/com/learn/eurekacomsumerribbon/EurekaComsumerRibbonApplication.java,6\0\60651902d00ae4f5fb807a6a6d194f4cf8728f48

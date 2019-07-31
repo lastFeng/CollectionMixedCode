@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-comsumer" />
+        <module name="eureka-comsumer-ribbon" />
         <module name="springcloud" />
         <module name="springcloudeurekaclient" />
         <module name="springcloudeurekaserver" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="eureka-comsumer" target="1.8" />
+      <module name="eureka-comsumer-ribbon" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="springcloudeurekaclient" target="1.8" />
       <module name="springcloudeurekaserver" target="1.8" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-comsumer" options="-parameters" />
+      <module name="eureka-comsumer-ribbon" options="-parameters" />
       <module name="springcloud" options="-parameters" />
       <module name="springcloudeurekaclient" options="-parameters" />
       <module name="springcloudeurekaserver" options="-parameters" />

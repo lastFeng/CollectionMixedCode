@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/springcloudeurekaserver/pom.xml" />
         <option value="$PROJECT_DIR$/springcloudeurekaclient/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-comsumer-ribbon/pom.xml" />
       </list>
     </option>
   </component>
