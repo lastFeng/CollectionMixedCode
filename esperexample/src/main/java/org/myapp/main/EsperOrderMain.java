@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.myapp;
+package org.myapp.main;
 
 import com.espertech.esper.client.Configuration;
 import com.espertech.esper.client.EPServiceProvider;
@@ -35,7 +35,7 @@ import java.util.List;
  * @version: 1.0
  * @create: 2019/8/2 10:22
  */
-public class EsperMain {
+public class EsperOrderMain {
     public static void main(String[] args) {
 
         // 配置指定采用类的Java包名
