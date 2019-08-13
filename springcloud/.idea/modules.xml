@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-comsumer/eureka-comsumer.iml" filepath="$PROJECT_DIR$/eureka-comsumer/eureka-comsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-comsumer-ribbon/eureka-comsumer-ribbon.iml" filepath="$PROJECT_DIR$/eureka-comsumer-ribbon/eureka-comsumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-feign/eureka-consumer-feign.iml" filepath="$PROJECT_DIR$/eureka-consumer-feign/eureka-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-ribbon-hystrix/eureka-consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/eureka-consumer-ribbon-hystrix/eureka-consumer-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudeurekaclient/springcloudeurekaclient.iml" filepath="$PROJECT_DIR$/springcloudeurekaclient/springcloudeurekaclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudeurekaserver/springcloudeurekaserver.iml" filepath="$PROJECT_DIR$/springcloudeurekaserver/springcloudeurekaserver.iml" />

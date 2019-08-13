@@ -21,3 +21,23 @@ N
 `eureka-comsumer-ribbon/src/main/java/com/learn/eurekacomsumerribbon/controller/DcController.java,c\1\c1b58957fca191d5b5a10657f0113b301138badb
 ˜
 heureka-comsumer-ribbon/src/main/java/com/learn/eurekacomsumerribbon/EurekaComsumerRibbonApplication.java,6\0\60651902d00ae4f5fb807a6a6d194f4cf8728f48
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Ž
+^eureka-consumer-feign/src/main/java/com/learn/eurekaconsumerfeign/controller/DcController.java,a\8\a81cf563e7ac860047f0fc545f36af4681aff8fd
+„
+Teureka-consumer-feign/src/main/java/com/learn/eurekaconsumerfeign/rest/DcClient.java,e\d\ed93d33a85e2804fa81d1ee9a30ec77691616bc2
+•
+eeureka-consumer-feign/src/main/java/com/learn/eurekaconsumerfeign/EurekaConsumerFeignApplication.java,2\8\2889669ef4fbffb7a9d6f5714c5ebae7110ab16b
+O
+springcloudeurekaserver/pom.xml,4\c\4c136049e62168ce00930c04e9a7a59de4d14969
+M
+eureka-consumer-feign/pom.xml,7\1\714504442163b2c5a5ae63a02169598660c6cd66
+®
+~eureka-consumer-ribbon-hystrix/src/main/java/com/learn/eurekaconsumerribbonhystrix/EurekaConsumerRibbonHystrixApplication.java,6\b\6b07fd48b69ca08ed328e09635dad7df13033f4e
+Ÿ
+oeureka-consumer-ribbon-hystrix/src/main/java/com/learn/eurekaconsumerribbonhystrix/controller/DcController.java,5\9\59d70f5d8db8d1bee38e52192bec12536f83b1c9
+V
+&eureka-consumer-ribbon-hystrix/pom.xml,2\c\2c92cf3050e3431eabdb805f43bf81f0a7c74f3d
+Ÿ
+oeureka-consumer-ribbon-hystrix/src/main/java/com/learn/eurekaconsumerribbonhystrix/service/ConsumerService.java,e\2\e25c7856f9cbecaef095c4a63137b786a4bc3d80
