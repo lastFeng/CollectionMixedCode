@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.union.project.dao.LoginLogMapper">
+    <insert id="save" parameterType="com.example.union.project.domain.LoginLog">
+        insert into t_login_log
+        values
+        (#{loginLog.loginLogId},#{loginLog.userId}, #{loginLog.ip}, #{loginLog.loginDate})
+    </insert>
+
+    <select id="getCountByDate" resultType="long">
+      select count(*)
+      from t_login_log
+      where 1=1
+      <if test="date != null and date != ''">
+        and login_date like '${date}%'
+      </if>
+    </select>
+
+    <select id="getUnionCountByDate" resultType="long">
+        SELECT COUNT(*)
+        FROM
+          (SELECT user_id, ip FROM t_login_log WHERE login_date LIKE '${preDate}%') AS a,
+          (SELECT user_id, ip FROM t_login_log WHERE login_date LIKE '${currentDate}%') AS b
+        WHERE a.user_id = b.user_id AND a.ip = b.ip
+    </select>
+
+</mapper>
