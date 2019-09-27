@@ -1,0 +1,5 @@
+
+[
+squid:S106G"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8ÿ·¨äÖ-
+dsquid:S10755"ARefactor your code to get this URI from a customizable parameter.(›ª€¦ûÿÿÿÿ8¡¹äÖ-
+Zsquid:S2589C"7Remove this expression which always evaluates to "true"(©õéáÿÿÿÿÿ8ÿ·¨äÖ-
