@@ -52,6 +52,7 @@ public class ScheduleJobWeb {
         Long jobId = 1L ;
         ScheduleJobBean scheduleJobBean = scheduleJobService.selectByPrimaryKey(jobId) ;
         scheduleJobBean.setParams("Hello,Job_Quart");
+        scheduleJobBean.setStatus(scheduleJobBean.getStatus() == 0 ? 1 : 0);
         scheduleJobService.updateByPrimaryKeySelective(scheduleJobBean) ;
         return "success" ;
     }
