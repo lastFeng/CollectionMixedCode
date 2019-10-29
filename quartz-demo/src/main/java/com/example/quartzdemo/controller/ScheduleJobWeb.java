@@ -14,6 +14,7 @@ public class ScheduleJobWeb {
 
     @Resource
     private ScheduleJobService scheduleJobService ;
+    private static Long jobId = 1L;
 
     /**
      * 添加定时器
@@ -21,12 +22,12 @@ public class ScheduleJobWeb {
     @RequestMapping("/insertJob")
     public ScheduleJobBean insertJob (){
         ScheduleJobBean scheduleJobBean = new ScheduleJobBean() ;
-        scheduleJobBean.setJobId(1L);
+        scheduleJobBean.setJobId(jobId++);
         scheduleJobBean.setBeanName("getTimeTask");
         // 每分钟执行一次
         scheduleJobBean.setCronExpression("0 0/1 * * * ?");
         scheduleJobBean.setParams("Hello,Quart-Job");
-        scheduleJobBean.setStatus(0);
+        scheduleJobBean.setStatus(1);
         scheduleJobBean.setRemark("获取时间定时器");
         scheduleJobBean.setCreateTime(new Date());
         scheduleJobService.insert(scheduleJobBean) ;
