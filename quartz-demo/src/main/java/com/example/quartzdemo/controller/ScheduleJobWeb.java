@@ -30,7 +30,7 @@ public class ScheduleJobWeb {
         scheduleJobBean.setStatus(1);
         scheduleJobBean.setRemark("获取时间定时器");
         scheduleJobBean.setCreateTime(new Date());
-        scheduleJobService.insert(scheduleJobBean) ;
+        scheduleJobService.insert(scheduleJobBean);
         return scheduleJobBean ;
     }
 

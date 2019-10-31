@@ -34,6 +34,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -41,7 +42,8 @@ import java.util.Date;
  */
 public class TaskJobLog extends QuartzJobBean {
 
-    private static final Logger LOG = LoggerFactory.getLogger(TaskJobLog.class) ;
+    private static final Logger LOG = LoggerFactory.getLogger(TaskJobLog.class);
+    private static final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     @Override
     protected void executeInternal(JobExecutionContext context) {
@@ -62,7 +64,11 @@ public class TaskJobLog extends QuartzJobBean {
             long executeTime = System.currentTimeMillis() - beginTime;
             logBean.setTimes((int)executeTime);
             logBean.setStatus(0);
+            String cron = format.format(context.getNextFireTime());
+            LOG.info("context的上一次时间： " + format.format(context.getPreviousFireTime()));
+            LOG.info("context的下一次时间： " + cron);
             LOG.info("定时器 === >> "+jobBean.getJobId()+"执行成功,耗时 === >> " + executeTime);
+            System.out.println();
         } catch (Exception e){
             // 异常信息
             long executeTime = System.currentTimeMillis() - beginTime;
